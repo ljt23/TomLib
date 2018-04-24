@@ -1,7 +1,9 @@
 use_frameworks!
 
 target 'TomLib_Example' do
-  pod 'TomLib', :path => '../'
+    pod 'TomLib', :path => '../' # 指定路径
+    #pod 'TomLib', :podspec => '../TomLib.podspec'  # 指定podspec文件，本地校验
+    #pod 'TomLib', '~> 0.1.0'  # 发布以后
 
   target 'TomLib_Tests' do
     inherit! :search_paths

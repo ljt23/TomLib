@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TomLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TomLib (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TomLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TomLib: 5de904015c7499982df16e5c7ef02f9241748651
+
+PODFILE CHECKSUM: 0047749837288c85b1307ae6b1538b44b06cf2e3
+
+COCOAPODS: 1.5.0
