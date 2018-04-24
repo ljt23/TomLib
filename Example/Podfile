@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TomLib_Example' do
+  pod 'TomLib', :path => '../'
+
+  target 'TomLib_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
