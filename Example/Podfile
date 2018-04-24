@@ -1,9 +1,13 @@
 use_frameworks!
 
+source 'https://github.com/CocoaPods/Specs.git'
+#私有Spec Repo
+source 'https://github.com/ljt23/Specs.git'
+
 target 'TomLib_Example' do
-    pod 'TomLib', :path => '../' # 指定路径
-    #pod 'TomLib', :podspec => '../TomLib.podspec'  # 指定podspec文件，本地校验
-    #pod 'TomLib', '~> 0.1.0'  # 发布以后
+#    pod 'TomLib', :path => '../' # 指定路径
+#    pod 'TomLib', :podspec => '../TomLib.podspec'  # 指定podspec文件，本地校验
+    pod 'TomLib', '~> 0.1.0'  # 发布以后
 
   target 'TomLib_Tests' do
     inherit! :search_paths

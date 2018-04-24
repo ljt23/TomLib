@@ -8,20 +8,18 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - TomLib (from `../`)
+  - TomLib (~> 0.1.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - FBSnapshotTestCase
-
-EXTERNAL SOURCES:
-  TomLib:
-    :path: "../"
+  https://github.com/ljt23/Specs.git:
+    - TomLib
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  TomLib: 5de904015c7499982df16e5c7ef02f9241748651
+  TomLib: 38d52cbebd1cad0d301c2586096f167100447012
 
-PODFILE CHECKSUM: 0047749837288c85b1307ae6b1538b44b06cf2e3
+PODFILE CHECKSUM: fbd5a59a4896efd86792d13a73d32f259ac2a6db
 
 COCOAPODS: 1.5.0
